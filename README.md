@@ -1,7 +1,7 @@
 # specc
 
-[![npm version](https://img.shields.io/npm/v/specc.svg)](https://www.npmjs.com/package/specc)
-[![license](https://img.shields.io/npm/l/specc.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/@arsyadal/specc.svg)](https://www.npmjs.com/package/@arsyadal/specc)
+[![license](https://img.shields.io/npm/l/@arsyadal/specc.svg)](LICENSE)
 
 **specc** is a Session & Skill Optimizer for Claude Code. It compiles a single `playbook.md` into highly focused micro-skills, tracks session character sizes, and allows clean context handoffs so you never lose task progress.
 
@@ -16,7 +16,7 @@
 ## Installation
 
 ```bash
-npm install -g specc
+npm install -g @arsyadal/specc
 ```
 
 For development:
