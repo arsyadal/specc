@@ -1,5 +1,5 @@
 {
-  "name": "specpacks",
+  "name": "into-a-pieces",
   "version": "0.1.0",
   "description": "Session & Skill Compiler and Controller for Claude Code",
   "type": "module",

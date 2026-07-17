@@ -1,9 +1,9 @@
-# specpacks
+# into-a-pieces
 
-[![npm version](https://img.shields.io/npm/v/specpacks.svg)](https://www.npmjs.com/package/specpacks)
-[![license](https://img.shields.io/npm/l/specpacks.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/into-a-pieces.svg)](https://www.npmjs.com/package/into-a-pieces)
+[![license](https://img.shields.io/npm/l/into-a-pieces.svg)](LICENSE)
 
-**specpacks** is a Session & Skill Optimizer for Claude Code. It compiles a single `playbook.md` into highly focused micro-skills, tracks session character sizes, and allows clean context handoffs so you never lose task progress.
+**into-a-pieces** is a Session & Skill Optimizer for Claude Code. It compiles a single `playbook.md` into highly focused micro-skills, tracks session character sizes, and allows clean context handoffs so you never lose task progress.
 
 ## Features
 
@@ -16,7 +16,7 @@
 ## Installation
 
 ```bash
-npm install -g specpacks
+npm install -g into-a-pieces
 ```
 
 For development:
