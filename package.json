@@ -1,0 +1,23 @@
+{
+  "name": "@arsyadal/specc",
+  "version": "0.1.0",
+  "description": "Session & Skill Compiler and Controller for Claude Code",
+  "type": "module",
+  "main": "lib/compiler.js",
+  "bin": {
+    "specc": "bin/specc.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsyadal/specc.git"
+  },
+  "homepage": "https://github.com/arsyadal/specc#readme",
+  "bugs": "https://github.com/arsyadal/specc/issues"
+}
