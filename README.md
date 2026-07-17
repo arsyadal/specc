@@ -1,7 +1,7 @@
 # @arsyadal/into-a-pieces
 
 [![npm version](https://img.shields.io/npm/v/@arsyadal/into-a-pieces.svg)](https://www.npmjs.com/package/@arsyadal/into-a-pieces)
-[![license](https://img.shields.io/npm/l/@arsyadal/into-a-pieces.svg)](LICENSE)
+[![license](https://img.shields.io/npm/l/@arsyadal/into-a-pieces.svg)](https://github.com/arsyadal/specc/blob/main/LICENSE)
 
 **into-a-pieces** is a Session & Skill Optimizer for Claude Code. It compiles a single `playbook.md` into highly focused micro-skills, tracks session character sizes, and allows clean context handoffs so you never lose task progress.
 
