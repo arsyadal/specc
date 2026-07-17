@@ -27,7 +27,7 @@
 - Produces: `parsePlaybook(playbookContent: string): Array<{ name: string, description: string, content: string }>`
 - Produces: `compilePlaybook(playbookPath: string, outputDir: string): void`
 
-- [ ] **Step 1: Write compiler tests**
+- [x] **Step 1: Write compiler tests**
 
 Create `test/compiler.test.js`:
 ```javascript
@@ -57,12 +57,12 @@ Commit format rules.`;
 });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `node --test test/compiler.test.js`
 Expected: FAIL (module not found or function undefined)
 
-- [ ] **Step 3: Write compiler implementation**
+- [x] **Step 3: Write compiler implementation**
 
 Create `lib/compiler.js`:
 ```javascript
@@ -136,12 +136,12 @@ export function compilePlaybook(playbookPath, outputDir) {
 }
 ```
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 
 Run: `node --test test/compiler.test.js`
 Expected: PASS
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add package.json lib/compiler.js test/compiler.test.js
@@ -160,7 +160,7 @@ git commit -m "feat: implement playbook parser and micro-skills compiler"
 - Produces: `saveHandoffState(cwd: string): string`
 - Produces: `loadHandoffContext(cwd: string): string | null`
 
-- [ ] **Step 1: Write handoff tests**
+- [x] **Step 1: Write handoff tests**
 
 Create `test/handoff.test.js`:
 ```javascript
@@ -184,12 +184,12 @@ test("saveHandoffState creates file and loadHandoffContext retrieves it", () => 
 });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `node --test test/handoff.test.js`
 Expected: FAIL (module not found or function undefined)
 
-- [ ] **Step 3: Write handoff implementation**
+- [x] **Step 3: Write handoff implementation**
 
 Create `lib/handoff.js`:
 ```javascript
@@ -245,12 +245,12 @@ Instruction: Resume working on the tasks in this repository.`;
 }
 ```
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 
 Run: `node --test test/handoff.test.js`
 Expected: PASS
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add lib/handoff.js test/handoff.test.js
@@ -268,7 +268,7 @@ git commit -m "feat: implement session handoff state capture and injection"
 **Interfaces:**
 - Produces: `trackPrompt(charCount: number, cwd: string): { total: number, warning: boolean }`
 
-- [ ] **Step 1: Write watchdog tests**
+- [x] **Step 1: Write watchdog tests**
 
 Create `test/watchdog.test.js`:
 ```javascript
@@ -292,12 +292,12 @@ test("trackPrompt accumulates character count and triggers warning when threshol
 });
 ```
 
-- [ ] **Step 2: Run test to verify it fails**
+- [x] **Step 2: Run test to verify it fails**
 
 Run: `node --test test/watchdog.test.js`
 Expected: FAIL
 
-- [ ] **Step 3: Write watchdog implementation**
+- [x] **Step 3: Write watchdog implementation**
 
 Create `lib/watchdog.js`:
 ```javascript
@@ -337,12 +337,12 @@ export function clearTokenCache(cwd = process.cwd()) {
 }
 ```
 
-- [ ] **Step 4: Run test to verify it passes**
+- [x] **Step 4: Run test to verify it passes**
 
 Run: `node --test test/watchdog.test.js`
 Expected: PASS
 
-- [ ] **Step 5: Commit**
+- [x] **Step 5: Commit**
 
 ```bash
 git add lib/watchdog.js test/watchdog.test.js
@@ -357,7 +357,7 @@ git commit -m "feat: implement token watchdog character tracking"
 - Create: `bin/specc.js`
 - Test: CLI integration
 
-- [ ] **Step 1: Write CLI routing logic**
+- [x] **Step 1: Write CLI routing logic**
 
 Create `bin/specc.js`:
 ```javascript
@@ -444,17 +444,17 @@ if (cmd === "compile") {
 }
 ```
 
-- [ ] **Step 2: Mark executable and link locally**
+- [x] **Step 2: Mark executable and link locally**
 
 Run: `chmod +x bin/specc.js && npm link`
 Expected: CLI is linked global, command `specc` works.
 
-- [ ] **Step 3: Run full test suite**
+- [x] **Step 3: Run full test suite**
 
 Run: `npm test`
 Expected: 10/10 PASS (all compiler, handoff, and watchdog unit tests run successfully)
 
-- [ ] **Step 4: Commit**
+- [x] **Step 4: Commit**
 
 ```bash
 git add bin/specc.js
