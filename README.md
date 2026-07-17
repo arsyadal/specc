@@ -1,9 +1,9 @@
-# specc
+# specpacks
 
-[![npm version](https://img.shields.io/npm/v/@arsyadal/specc-cli.svg)](https://www.npmjs.com/package/@arsyadal/specc-cli)
-[![license](https://img.shields.io/npm/l/@arsyadal/specc-cli.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/specpacks.svg)](https://www.npmjs.com/package/specpacks)
+[![license](https://img.shields.io/npm/l/specpacks.svg)](LICENSE)
 
-**specc** is a Session & Skill Optimizer for Claude Code. It compiles a single `playbook.md` into highly focused micro-skills, tracks session character sizes, and allows clean context handoffs so you never lose task progress.
+**specpacks** is a Session & Skill Optimizer for Claude Code. It compiles a single `playbook.md` into highly focused micro-skills, tracks session character sizes, and allows clean context handoffs so you never lose task progress.
 
 ## Features
 
@@ -16,7 +16,7 @@
 ## Installation
 
 ```bash
-npm install -g @arsyadal/specc-cli
+npm install -g specpacks
 ```
 
 For development:
