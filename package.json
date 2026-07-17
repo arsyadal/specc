@@ -1,6 +1,9 @@
 {
   "name": "@arsyadal/specc",
   "version": "0.1.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Session & Skill Compiler and Controller for Claude Code",
   "type": "module",
   "main": "lib/compiler.js",
